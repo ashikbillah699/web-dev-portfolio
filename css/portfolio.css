@@ -12,6 +12,7 @@
     margin: 0 auto;
     padding: 0;
 }
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -56,9 +57,9 @@ Header{
 
 nav{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 200px;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: center;
 }
 
 nav ul{
@@ -85,8 +86,8 @@ nav li a{
 }
 
 .banner-content{
-    width: 580px;
-    margin:0 0px 0 200px;
+    width: 1000px;
+    margin:130px 0px 0 200px;
 }
 
 .banner-content h4{
@@ -97,18 +98,19 @@ nav li a{
 
 .banner-content h1{
     color: #181818;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 800;
 }
 
 .banner-content p{
     color: #757575;
     font-size: 14px;
+    padding: 10px 15px;
 }
 
 .banner img{
-    height: 670px;
-    width: 580px;
+    height: 550px;
+    width: 516px;
     margin:0 35px 0 165px;
 }
 
@@ -153,3 +155,43 @@ nav li a{
     color: #474747;
     font-weight: bold;
 }
+
+/* What i do part */
+
+.skill_header .about-pera{
+    padding: 15px 370px;
+}
+
+.skill_items{
+    width: 1050px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    padding: 50px 0;
+    
+}
+.skill_item{
+    border:1px solid #bbb4b4;
+    padding: 10px;
+}
+
+.skill_item img{
+    width: 44px;
+    height: 44px;
+
+}
+
+.skill_item h5{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.skill_item p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 20px;
+    /* padding: 10px 43px 0 0; */
+}
+
