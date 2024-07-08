@@ -195,3 +195,61 @@ nav li a{
     /* padding: 10px 43px 0 0; */
 }
 
+/* A summary of My Resume */
+.resume{
+    width: 1050px;
+    margin-top: 120px;
+}
+
+.resume_items{
+    display: flex;
+    justify-content: space-around;
+    gap: 55px;
+}
+
+.education h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    padding: 50px 0 30px 0;
+}
+
+.education_item{
+    padding-right: 30px;
+}
+
+.education_item h5{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    padding: 20px 0;
+}
+
+.education_item small{
+    font-size: 20px;
+    font-weight:600;
+    color: #757575;
+}
+
+.education_item p{
+    font-size: 16px;
+    color: #757575;
+    padding-top: 15px;
+    line-height: 24px;
+}
+
+.resume_btn{
+    text-align: center;
+    margin: 50px 0 110px;
+}
+
+.resume_btn button img{
+    color: #fff;
+    height: 24px;
+    width: 24px;
+    background-color: #FD6E0A;
+    margin-top: 5px;
+}
+
+
+
