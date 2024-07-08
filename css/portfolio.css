@@ -2,26 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:"wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
+
 /* Common style */
-*{
+* {
     margin: 0 auto;
     padding: 0;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     color: #fff;
     padding: 15px 25px;
@@ -31,7 +32,7 @@
     font-weight: 700;
 }
 
-.section-title{
+.section-title {
     color: #181818;
     font-size: 35px;
     font-weight: bold;
@@ -40,7 +41,7 @@
 }
 
 /* header style */
-Header{
+Header {
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -49,85 +50,85 @@ Header{
 }
 
 /* Nav style */
-.nav-title{
+.nav-title {
     font-size: 45px;
     font-weight: 800;
     color: #181818;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
     text-align: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    align-items: center ;
+    align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     font-size: 20px;
 
 }
 
 /* Banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
 
 }
 
-.banner-content{
+.banner-content {
     width: 1000px;
-    margin:130px 0px 0 200px;
+    margin: 130px 0px 0 200px;
 }
 
-.banner-content h4{
+.banner-content h4 {
     color: #474747;
     font-size: 35px;
     font-weight: 600;
 }
 
-.banner-content h1{
+.banner-content h1 {
     color: #181818;
     font-size: 65px;
     font-weight: 800;
 }
 
-.banner-content p{
+.banner-content p {
     color: #757575;
     font-size: 14px;
     padding: 10px 15px;
 }
 
-.banner img{
+.banner img {
     height: 550px;
     width: 516px;
-    margin:0 35px 0 165px;
+    margin: 0 35px 0 165px;
 }
 
 /* about style */
-.about{
+.about {
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 130px 200px;
     padding: 130px;
 }
 
-.about-content{
+.about-content {
     background-color: #fff;
     border: 1px solid #000;
 }
 
-.about-pera{
+.about-pera {
     color: #757575;
     font-size: 12px;
     text-align: center;
@@ -135,60 +136,61 @@ nav li a{
     line-height: 20px;
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
 
 }
 
-.about-item{
+.about-item {
     text-align: center;
     font-size: 14px;
 }
 
-.about-item p{
+.about-item p {
     color: #757575;
     margin-bottom: 2px;
 }
 
-.about-item h5{
+.about-item h5 {
     color: #474747;
     font-weight: bold;
 }
 
 /* What i do part */
 
-.skill_header .about-pera{
+.skill_header .about-pera {
     padding: 15px 370px;
 }
 
-.skill_items{
+.skill_items {
     width: 1050px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     gap: 50px;
     padding: 50px 0;
-    
+
 }
-.skill_item{
-    border:1px solid #bbb4b4;
+
+.skill_item {
+    border: 1px solid #bbb4b4;
     padding: 10px;
 }
 
-.skill_item img{
+.skill_item img {
     width: 44px;
     height: 44px;
 
 }
 
-.skill_item h5{
+.skill_item h5 {
     font-size: 18px;
     font-weight: bold;
-    
+
 }
 
-.skill_item p{
+.skill_item p {
     font-size: 16px;
     color: #757575;
     line-height: 20px;
@@ -196,54 +198,54 @@ nav li a{
 }
 
 /* A summary of My Resume */
-.resume{
+.resume {
     width: 1050px;
     margin-top: 120px;
 }
 
-.resume_items{
+.resume_items {
     display: flex;
     justify-content: space-around;
     gap: 55px;
 }
 
-.education h3{
+.education h3 {
     font-size: 30px;
     font-weight: bold;
     color: #474747;
     padding: 50px 0 30px 0;
 }
 
-.education_item{
+.education_item {
     padding-right: 30px;
 }
 
-.education_item h5{
+.education_item h5 {
     font-size: 25px;
     font-weight: bold;
     color: #474747;
     padding: 20px 0;
 }
 
-.education_item small{
+.education_item small {
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     color: #757575;
 }
 
-.education_item p{
+.education_item p {
     font-size: 16px;
     color: #757575;
     padding-top: 15px;
     line-height: 24px;
 }
 
-.resume_btn{
+.resume_btn {
     text-align: center;
     margin: 50px 0 110px;
 }
 
-.resume_btn button img{
+.resume_btn button img {
     color: #fff;
     height: 24px;
     width: 24px;
@@ -251,5 +253,52 @@ nav li a{
     margin-top: 5px;
 }
 
+/* footer part */
 
+footer{
+    width: 1050px;
+    display: flex;
+}
 
+footer h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    padding-bottom: 30px;
+}
+
+footer p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 24px;
+}
+
+.socile_icon img{
+    width: 24px;
+    height: 24px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+
+.messege input{
+    display: block;
+    margin-bottom: 30px;
+}
+
+footer .btn-primary{
+    text-align: start;
+    margin-top: 30px;
+}
+
+.footer_end{
+    margin: 50px auto 0;
+    background-color:#fca96f;
+    width: 100%;
+}
+.footer_end p{
+    text-align: center;
+    color: rgb(41, 40, 40);
+    font-weight: 500;
+    padding: 10px 0;
+    width: 100%;
+}
